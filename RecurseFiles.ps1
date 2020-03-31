@@ -1,0 +1,1 @@
+gci -Recurse | Select-Object FullName | %{echo "DIR: $($_.FullName)"}
